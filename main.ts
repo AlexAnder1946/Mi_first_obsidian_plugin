@@ -99,6 +99,7 @@ class SampleModal extends Modal {
 	onOpen() {
 		const {contentEl} = this;
 		contentEl.setText('Woah!');
+		
 	}
 
 	onClose() {
@@ -114,7 +115,7 @@ class SampleSettingTab extends PluginSettingTab {
 		super(app, plugin);
 		this.plugin = plugin;
 	}
-
+	//cools
 	display(): void {
 		const {containerEl} = this;
 
